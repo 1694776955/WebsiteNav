@@ -1,0 +1,184 @@
+//导航网站总结构
+[
+    //分类结构
+    {
+        title: '素材',
+        id:"",
+        AT:"",//广告内容
+        ATUrl:'',//广告链接
+        {
+        //子分类结构
+            title: '设计',
+            id:"",
+            AT:"",//广告内容
+            ATUrl:'',//广告链接
+            {
+                title: "",//网站名称，
+                Burl: "",//网站链接，
+                icon: "",//网站图标，
+                text: "", //说明文字
+                language: "",//网站语言支持
+            }
+        }
+    }
+]
+
+
+//网站Sting设置
+[
+    // 网站SEO结构
+    {
+        title:"",//网站名称
+        icon:"",//网站Ico图标
+        logo:"",//网站LOgo
+        keywords:'',//网站keywords内容
+        description:'',//网站description内容 
+        icp:"",//网站备案号
+        contact:"",//网站联系方式
+        mail:"",//站长邮箱
+        weibo:'',
+        github:'',
+        QQ:'',
+        QQqun:'',
+        weixin:'',
+        WeChat:"",//公众号
+    },
+    //网站设置      用户可通过coolk储存至本地。如果本地数据有，将不再使用网络数据。
+    {   
+        theme:"4",//提供四中配色主题
+        search:'0123456',//搜索引擎顺序
+        isIcon:true,//是否显示网站图标
+        isTag:true,//是否显示网站标签
+        isLanguage:true,//是否显示网站语言
+        isaccess:true,//是否显示直达
+        isQQ:'',
+        isweibo:'',
+        isweixin:''
+    },
+    {
+        AT:"",//内容页面广告内容
+        ATUrl:'',//内容页面广告链接
+    },
+    //友情链接link
+    {
+        {
+            linkTitle:"",
+            linkUrl:""
+        },
+        {
+            linkTitle:"",
+            linkUrl:""
+        }
+
+    },
+    //捐赠页面
+    {
+        GiftText:'',
+        GfitImg:'',
+        GfitimgList:{
+            name:'',
+            price:''
+        }
+    },
+    //关于本站
+    {
+        navAboutText:'',//站点说明简介
+        navAboutLogo:'',//网站logo
+        IcoLink:{//友链链接格式
+            img:'',
+            inputText:"",
+        },
+        IcoLink:{
+            title:'',
+            inputText:"",
+        },
+        Updatelogs:{
+            //更新日志
+            {
+                time:'',//日期
+                Edition:'',//版本
+                UpdateText:''//更新说明
+            }
+        }
+    }
+]
+
+//设置网站导读  最后开发此功能。
+{
+   { //使用Tab页实现。
+        name:'设计',
+        titleList:{
+            //网站名称
+            {
+                Tabsname:"花瓣",
+                TabsnameList:{
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    },
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    },
+                    
+                }
+            },
+            //网站名称
+            {
+                Tabsname:"花瓣",
+                TabsnameList:{
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    },
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    }
+                }
+            }
+        }
+    },
+    {
+        titl:'前端',
+        titleList:{
+             //网站名称
+             {
+                Tabsname:"花瓣",
+                TabsnameList:{
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    },
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    },
+                    
+                }
+            },
+            //网站名称
+            {
+                Tabsname:"花瓣",
+                TabsnameList:{
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    },
+                    {   
+                        title:''
+                        img:""
+                        url:""
+                    }
+                }
+            }
+        }
+    }
+}
