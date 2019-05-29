@@ -57,10 +57,10 @@
 	// 开启服务器，浏览器访问 http://localhost:8080
 	npm run serve
 
-## 构建预上线
+## 安装依赖环境
 
-	// 执行构建命令，生成的stage文件夹放在服务器下即可访问
-	npm run stage
+	// 执行构建依赖环境命令
+	npm install
 	
 ## 构建生产
 
