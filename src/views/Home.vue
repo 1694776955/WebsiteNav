@@ -2,9 +2,8 @@
   <div class="home">
     <el-scrollbar style="height: 100%;">
     <el-container>
-			<!-- 头部文件 -->
+<!-- 头部文件 -->
       <Search></Search>
-     
       <el-footer>
         <Footer></Footer>
       </el-footer>
@@ -19,9 +18,9 @@ import Search from '@/components/Search.vue'
 
 export default {
   name: 'home',
-  data() {
+  data () {
     return {
-      value3:true
+      value3: true
     }
   },
   components: {
@@ -85,6 +84,6 @@ export default {
     p
       font-size: 12px
       overflow: hidden
-      text-overflow: ellipsis 
+      text-overflow: ellipsis
       white-space: nowrap
 </style>

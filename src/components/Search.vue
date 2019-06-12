@@ -1,38 +1,43 @@
 <template>
   <div class="search">
-    <el-input placeholder="搜索内容" v-model="input3" class="input-with-select" @keyup.enter.native="searchOpen">
-        <el-select v-model="select" slot="prepend" placeholder="百度" class="search-select">
-          <el-option  
+    <el-input
+      placeholder="搜索内容"
+      v-model="input3"
+      class="input-with-select"
+      @keyup.enter.native="searchOpen"
+    >
+      <el-select v-model="select" slot="prepend" placeholder="百度" class="search-select">
+        <el-option
           v-for="item in searchList"
-      :key="item.value"
-      :label="item.label"
-      :value="item.url"></el-option>
-        </el-select>
-        <el-button slot="append" icon="el-icon-search" class="input-button" @click="searchOpen"></el-button>
-      </el-input>
-    
+          :key="item.value"
+          :label="item.label"
+          :value="item.url"
+        ></el-option>
+      </el-select>
+      <el-button slot="append" icon="el-icon-search" class="input-button" @click="searchOpen"></el-button>
+    </el-input>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Search',
+  name: "Search",
   data() {
     return {
-      searchList:[
-        {label:"百度",url:"https://www.baidu.com/s?ie=UTF-8&wd="},
-        {label:"花瓣",url:"https://huaban.com/search/?q="},
-        {label:"jQuery库",url:"http://www.jq22.com/search?seo="},
-        {label:"Github",url:"https://github.com/search?q="},
+      searchList: [
+        { label: "百度", url: "https://www.baidu.com/s?ie=UTF-8&wd=" },
+        { label: "花瓣", url: "https://huaban.com/search/?q=" },
+        { label: "jQuery库", url: "http://www.jq22.com/search?seo=" },
+        { label: "Github", url: "https://github.com/search?q=" }
       ],
       input3: "",
-      select: "https://www.baidu.com/s?ie=UTF-8&wd=",
+      select: "https://www.baidu.com/s?ie=UTF-8&wd="
     };
   },
-  methods:{
-    searchOpen(){
-      var SearchUrl=this.select + this.input3
-      window.open(SearchUrl)
+  methods: {
+    searchOpen() {
+      var SearchUrl = this.select + this.input3;
+      window.open(SearchUrl);
     }
   },
   props: {}
