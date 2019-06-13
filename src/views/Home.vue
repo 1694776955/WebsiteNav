@@ -32,7 +32,6 @@ export default {
 .home
   width: 100%
   height: 100%
-  background-color: #F1F2F9
   .stingButton
     width: 80%
     margin: 0 auto

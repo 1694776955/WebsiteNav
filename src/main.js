@@ -5,7 +5,9 @@ import router from './router'
 import store from './store'
 import './plugins/element.js'
 
+
 Vue.config.productionTip = false
+
 router.beforeEach((to, from, next) => {
   /* 路由发生变化修改页面title */
   if (to.meta.title) {

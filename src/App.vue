@@ -3,7 +3,7 @@
     <el-container>
       <el-aside width="auto">
 
-        <!-- <el-switch v-model="isCollapse"></el-switch> -->
+        <el-switch v-model="isCollapse"></el-switch>
         <!-- logo -->
         <div class="leftlogo" id="leftLogo" v-if="!isCollapse">
           <div id="leftlogo_one" style="padding:0px 20px">
@@ -119,6 +119,7 @@ export default {
 .el-scrollbar .el-scrollbar__wrap {overflow-x: hidden;}
 .el-container{
   height: 100%;
+  background-color: #F1F2F9
 }
 .leftlogo{
   width: 200px;
