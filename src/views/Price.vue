@@ -62,7 +62,7 @@ export default {
             margin: 0 auto
 .el-col
     border-radius: 4px;
-    margin-bottom: 20px
+    margin-bottom:20px
     .grid-content
         border-radius: 4px
         max-height: 36px
