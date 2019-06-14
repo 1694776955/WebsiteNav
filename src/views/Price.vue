@@ -44,10 +44,12 @@
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 <script>
 import Search from "@/components/Search.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   data() {
     return {
@@ -57,7 +59,8 @@ export default {
     };
   },
   components: {
-    Search
+    Search,
+    Footer
   },
   //生命周期函数
   mounted() {},
@@ -77,22 +80,22 @@ export default {
 <style lang="sass">
 .price
     width: 100%
+    height: 100%
     .pricebox
-        background-color: red
         border-radius: 6px
         background-color: #fff
         padding: 24px 24px
         @media screen and (max-width: 1300px)
-            width: 1000px;
+            width: 952px
             margin: 0 auto
         @media screen and (min-width: 1300px)
-            width: 1200px;
+            width: 1152px
             margin: 0 auto
         @media screen and (min-width: 1920px)
-            width: 1400px;
+            width: 1352px
             margin: 0 auto
         @media screen and (min-width: 2000px)
-            width: 1600px;
+            width: 1552px
             margin: 0 auto
         .priceTitle
             .SettingPriceText
