@@ -1,0 +1,94 @@
+﻿["all":{
+    "title": "WebsiteNav",
+    "icon": "https://beipy.com/favicon.ico",
+    "logo": "https://huaban.com/img/logo_wt.svg",
+    "keywords": "设计师导航,UI设计,UI设计素材,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,交互设计师网址导航,",
+    "description": "精选国内外优秀 UI/UX 网站、灵感创意网站、素材资源网站。- ",
+    "icp": "京ICP备15015217号",
+    "mail": "beipy@qq.com",
+    "weibo": "BeipyShow",
+    "github": "https://github.com/Beipy",
+    "qq": "99341211",
+    "qqqun": "23423432",
+    "wechatimg": "http://cloud.niudana.com/Pay-Wechat.png",
+    "gonggao": "目前功能测试中，欢迎提出你的反馈与建议，谢谢支持。",
+    "gonggaourl": ""
+  },
+  {
+    "theme": "1",
+    "search": "0123456",
+    "isicon": true,
+    "istag": true,
+    "islanguage": true,
+    "isaccess": true,
+    "isqq": false,
+    "isweibo": true,
+    "isweixin": false
+  },
+  {
+    "atleft": "",
+    "atlefturl": "",
+    "banner": "",
+    "bannerurl": "",
+    "footer": "",
+    "footerurl": ""
+  },
+  [{
+      "linktitle": "beipy",
+      "linkurl": "http://beipy.com"
+    },
+    {
+      "linktitle": "beipy",
+      "linkurl": "http://beipy.com"
+    },
+    {
+      "linktitle": "beipy",
+      "linkurl": "http://beipy.com"
+    },
+    {
+      "linktitle": "beipy",
+      "linkurl": "http://beipy.com"
+    }
+  ],
+  {
+    "gifttext": "如果你觉得做得不错，欢迎贡献你的爱心，帮助站长减轻主机与域名的负担，不胜感谢 : ) \n捐赠任意金额，即可出现在 ”爱心榜“ 中；\n单次捐赠 160 元，可投放左侧导航底部 160*80px 广告位一天（24小时），单次捐赠 320 元，可投放全站底部通栏广告一天（24小时）。\n为防止丢失捐赠者数据，请付款后联系站长告知，",
+    "gfitimg": "http://cloud.niudana.com/Pay-Alipay.png",
+    "gfitlist": [{
+        "name": "马涛",
+        "price": "10"
+      },
+      {
+        "name": "张亮",
+        "price": "130"
+      }
+    ]
+  },
+  {
+    "abouttext": "value",
+    "aboutlogo": "value",
+    "textlink": {
+      "title": "WebsiteNav",
+      "inputText": "<a href='http://www.beipy.com' target='_blank' title='WebsiteNav'><img border='0' src='http://www.beipy.com/about/images/logo.gif' width='88' height='31' align='absmiddle'></a>"
+    },
+    "iconlink": {
+      "img": "https://beipy.com/favicon.ico",
+      "inputText": "<a href='http://www.beipy.com' target='_blank' title='WebsiteNav'><img border='0' src='http://www.beipy.com/about/images/logo.gif' width='88' height='31' align='absmiddle'></a>"
+    },
+    "Updatelogs": [{
+        "time": "2019-05-04",
+        "version": "Version 6.0",
+        "updateText": "支持更安全的SSL加密传输协议，全站支持HTTPS访问。（留言板由于第三方不支持，所以暂不支持HTTPS）"
+      },
+      {
+        "time": "2019-04-01",
+        "version": "Version 5.0",
+        "updateText": "设计导读恢复，支持网站 Dribbble，Behance，UI8，UpLabs，UI中国，站酷."
+      },
+      {
+        "time": "2019-03-01",
+        "version": "Version 3.0",
+        "updateText": "UI调整;\n完美兼容 Retina 屏幕;\n按语言版本区分链接;\n设计导读功能全面发布."
+      }
+    ]
+  }
+]

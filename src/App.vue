@@ -3,7 +3,7 @@
     <el-container>
       <el-aside width="auto">
 
-        <el-switch v-model="isCollapse"></el-switch>
+        <!-- <el-switch v-model="isCollapse"></el-switch> -->
         <!-- logo -->
         <div class="leftlogo" id="leftLogo" v-if="!isCollapse">
           <div id="leftlogo_one" style="padding:0px 20px">
@@ -25,6 +25,7 @@
             @open="handleOpen"
             @close="handleClose"
             :collapse="isCollapse"
+            :default-active="$route.path"
             background-color="#30333C"
             text-color="#909399"
             active-text-color="#fff"
@@ -135,7 +136,7 @@ export default {
   border-right: none
 }
 .el-aside{
-  border-right: solid 1px #e6e6e6;
+  /* border-right: solid 1px #e6e6e6; */
   background-color: #30333C
 }
 .el-menu-itemborder{
