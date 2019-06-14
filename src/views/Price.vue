@@ -5,7 +5,7 @@
     <div class="pricebox">
       <div class="priceTitle">
         <h4>捐赠本站</h4>
-        <el-divider content-position="left">+++++</el-divider>
+        <el-divider content-position="left"></el-divider>
 
         <!-- 栅格布局盒子 -->
         <el-row :gutter="20">
@@ -20,12 +20,12 @@
             <pre class="SettingPriceText" v-html="settingPrice.gifttext"></pre>
           </el-col>
         </el-row>
-        <el-divider content-position="left"></el-divider>
+        <el-divider></el-divider>
       </div>
       <div class="priceComont"></div>
       <div class="priceList">
         <h4>贡献榜</h4>
-        <el-divider content-position="left">+++++</el-divider>
+        <el-divider content-position="left"></el-divider>
         <div>
           <el-row :gutter="20">
             <el-col :span="6" v-for="(item, key) in settingPriceList">
@@ -67,9 +67,9 @@ export default {
       //   console.log(res.data);
       this.setting = res.data;
       this.settingPrice = res.data[4];
-      this.settingPriceList = res.data[4].gfitlist;
-      console.log(this.setting);
-      console.log(this.settingPriceList);
+      this.settingPriceList = res.data[4].gfitlist
+    //   console.log(this.setting);
+    //   console.log(this.settingPriceList);
     });
   }
 };
