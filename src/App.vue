@@ -120,7 +120,8 @@ export default {
 .el-scrollbar .el-scrollbar__wrap {overflow-x: hidden;}
 .el-container{
   height: 100%;
-  background-color: #F1F2F9
+  background-color: #F1F2F9;
+  overflow: auto;
 }
 .leftlogo{
   width: 200px;
