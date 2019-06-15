@@ -28,7 +28,7 @@
         <el-divider content-position="left"></el-divider>
         <div>
           <el-row :gutter="20">
-            <el-col :span="6" v-for="(item, key) in settingPriceList">
+            <el-col class="picelistbox" :span="6" v-for="(item, key) in settingPriceList">
               <div class="grid-content">
                 <el-row class="grid-content-margin">
                     <el-col :span="12" >
@@ -106,7 +106,7 @@ export default {
                 overflow: hidden
                 word-wrap:break-word
 .priceList
-    .el-col
+    .picelistbox
         border-radius: 4px;
         margin-bottom: 20px
         .grid-content
