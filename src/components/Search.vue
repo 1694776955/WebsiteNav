@@ -8,10 +8,10 @@
     >
       <el-select v-model="select" slot="prepend" placeholder="百度" class="search-select">
         <el-option
-          v-for="item in searchList"
-          :key="item.value"
-          :label="item.label"
-          :value="item.url"
+          v-for="(item, key) in searchList"
+          :key="key"
+          :label="key"
+          :value="item"
         ></el-option>
       </el-select>
       <el-button slot="append" icon="el-icon-search" class="input-button" @click="searchOpen"></el-button>
@@ -24,12 +24,7 @@ export default {
   name: "Search",
   data() {
     return {
-      searchList: [
-        { label: "百度", url: "https://www.baidu.com/s?ie=UTF-8&wd=" },
-        { label: "花瓣", url: "https://huaban.com/search/?q=" },
-        { label: "jQuery库", url: "http://www.jq22.com/search?seo=" },
-        { label: "Github", url: "https://github.com/search?q=" }
-      ],
+      searchList:[],
       input3: "",
       select: "https://www.baidu.com/s?ie=UTF-8&wd="
     };
@@ -40,7 +35,13 @@ export default {
       window.open(SearchUrl);
     }
   },
-  props: {}
+  created() {
+    // axios公共请求调用
+    this.http.get("setting").then(res => {
+        console.log(res.data[6]);
+      this.searchList = res.data[6];
+    });
+  }
 };
 </script>
 
