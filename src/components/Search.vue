@@ -24,7 +24,6 @@ export default {
   name: "Search",
   data() {
     return {
-      searchList:[],
       input3: "",
       select: "https://www.baidu.com/s?ie=UTF-8&wd="
     };
@@ -35,12 +34,8 @@ export default {
       window.open(SearchUrl);
     }
   },
-  created() {
-    // axios公共请求调用
-    this.http.get("setting").then(res => {
-        console.log(res.data[6]);
-      this.searchList = res.data[6];
-    });
+  props:{
+    searchList: Object
   }
 };
 </script>

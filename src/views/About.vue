@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <Search/>
+    <Search :searchList="setting[6]"/>
     <div class="aboutbox">
       <!------------------------------------------------关于本站叙述--------------------------------------------------->
       <div class="aboutHeader">

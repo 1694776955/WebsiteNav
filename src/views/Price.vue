@@ -1,6 +1,6 @@
 <template>
   <div class="price">
-    <Search></Search>
+    <Search :searchList="setting[6]"></Search>
 
     <div class="pricebox">
       <div class="priceTitle">
