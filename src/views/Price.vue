@@ -4,7 +4,7 @@
 
     <div class="pricebox">
       <div class="priceTitle">
-        <h4>捐赠本站</h4>
+        <h5>捐赠本站</h5>
         <el-divider content-position="left"></el-divider>
 
         <!-- 栅格布局盒子 -->
@@ -24,7 +24,7 @@
       </div>
       <div class="priceComont"></div>
       <div class="priceList">
-        <h4>贡献榜</h4>
+        <h5>贡献榜</h5>
         <el-divider content-position="left"></el-divider>
         <div>
           <el-row :gutter="20">
@@ -97,6 +97,8 @@ export default {
         @media screen and (min-width: 2000px)
             width: 1552px
             margin: 0 auto
+        h5
+          color: #606266
         .priceTitle
             .SettingPriceText
                 font-size: 12px

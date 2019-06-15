@@ -96,6 +96,7 @@ export default {
 .footer
     width: 100%
     background-color: transparent !important
+    margin-bottom: 50px
     .footerbox
         border-radius: 6px
         @media screen and (max-width: 1300px)
