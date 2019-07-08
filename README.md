@@ -27,7 +27,12 @@
 
 ## 界面效果
 -----
+##### About相关页面
+![PNG](Gitimg/huaban.png)
+##### Error错误页面
 ![PNG](Gitimg/QQ20190510-125129.png)
+
+
 
 ## 运行环境
 
